@@ -99,3 +99,4 @@ C:\Users\Rahul\source\repos\OrderItem\bin\Debug\netcoreapp3.1\System.IdentityMod
 C:\Users\Rahul\source\repos\OrderItem\obj\Debug\netcoreapp3.1\OrderItem.csproj.CoreCompileInputs.cache
 C:\Users\Rahul\source\repos\OrderItem\obj\Debug\netcoreapp3.1\OrderItem.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Rahul\source\repos\OrderItem\bin\Debug\netcoreapp3.1\orderitemdepl.yaml
+C:\Users\Rahul\source\repos\OrderItem\obj\Debug\netcoreapp3.1\OrderItem.csprojAssemblyReference.cache

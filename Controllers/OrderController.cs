@@ -49,15 +49,12 @@ namespace OrderItem.Controllers
         
             using (var client = new HttpClient())
             {
-                // Setting Base address.  
-                //   client.BaseAddress = new Uri("https://localhost:44307/");   
-                client.BaseAddress = new Uri("http://52.143.242.4/");
+                
+                  client.BaseAddress = new Uri("https://localhost:44307/");   
+           //     client.BaseAddress = new Uri("http://52.143.242.4/");
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
- 
-                HttpResponseMessage response = new HttpResponseMessage();
-  
-                response =  client.GetAsync("api/MenuItem/"+id).Result;
-               
+                   HttpResponseMessage response = new HttpResponseMessage();
+                  response =  client.GetAsync("api/MenuItem/"+id).Result;
                 string result = response.Content.ReadAsStringAsync().Result;
                 obj.menuItemName = result;
                 return obj;
